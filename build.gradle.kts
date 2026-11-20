@@ -13,7 +13,7 @@ plugins {
 dependencies {
   api("io.github.kotlin-telegram-bot.kotlin-telegram-bot:telegram:6.3.0")
   api("org.jetbrains.kotlinx:kotlinx-serialization-cbor:1.8.0")
-  api("com.google.guava:guava:33.6.0-jre")
+  api("com.google.guava:guava:33.7.2-jre")
   implementation("com.squareup.retrofit2:retrofit:2.11.0")
   testImplementation("com.squareup.okhttp3:mockwebserver:4.12.0")
   testImplementation("org.junit.jupiter:junit-jupiter:5.11.4")
